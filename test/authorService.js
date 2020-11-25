@@ -1,5 +1,5 @@
 import { expect } from 'chai';
-import AuthorService from './services/author.service';
+import AuthorService from './services/authorService.service';
 
 let articleId = 16368017;
 let cookie;
