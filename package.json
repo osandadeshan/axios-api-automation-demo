@@ -1,0 +1,28 @@
+{
+  "name": "axios-api-automation-demo",
+  "version": "1.0.0",
+  "description": "This is a sample project to demonstrate API automation using Axios",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "report": "mocha --reporter mocha-allure-reporter && allure generate allure-results --clean -o allure-report && allure open allure-report",
+    "mochawesome": "mocha --reporter mochawesome"
+  },
+  "author": "Osanda Deshan",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.12.1",
+    "@babel/core": "^7.12.3",
+    "@babel/node": "^7.12.6",
+    "@babel/preset-env": "^7.12.1",
+    "@babel/register": "^7.12.1",
+    "axios": "^0.21.0",
+    "babel-polyfill": "^6.26.0",
+    "chai": "^4.2.0",
+    "mocha": "^8.2.1",
+    "mochawesome": "^6.2.1"
+  },
+  "dependencies": {
+    "mocha-allure-reporter": "^1.4.0"
+  }
+}
